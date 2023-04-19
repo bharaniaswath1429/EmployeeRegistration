@@ -1,0 +1,98 @@
+body {
+    background: black;
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 9px;
+}
+
+#form button:hover {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(4, 155, 249);
+    border: none;
+    border-radius: 9px;
+    transition:all 1s;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+  border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 93%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control.error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+.input-control-radio {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+select  {
+    border: 2px solid whitesmoke;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 93%;
+    height: 40;
+    
+ }
+ select input {
+    border: 2px solid #09c372;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 93%;
+    height: 40;
+    
+ }
+
+ 

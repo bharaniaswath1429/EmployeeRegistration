@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./validation.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form"  action="/post" method="post">
+            <h1>EMPLOYEE REGISTRATION</h1>
+            <div class="input-control">
+                <label for="fame">First Name</label>
+                <input name="fname" type="text" placeholder="Enter First Name">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="lame">Last Name</label>
+                <input name="lname" type="text" placeholder="Enter Last Name">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="dob">Date of Birth</label>
+                <input name="dob" type="date">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input name="email" type="text" placeholder="Enter Email">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="phoneno">Phone Number</label>
+                <input name="phoneno" type="text" placeholder="Enter Phone Number">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control-radio">
+                <input type="radio" id="male" name="gender" value="male">
+				<label for="male">Male</label>
+
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Female</label>
+
+				<input type="radio" id="other" name="gender" value="other">
+				<label for="other">Other</label>
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="qual">Qualification</label>
+                <input name="qual" type="text" placeholder="Enter Qualification">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="exp">Years of Expericence</label>
+                <input name="exp" type="number" placeholder="Enter Expericence">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="doj">Date of joining</label>
+                <input name="doj" type="date">
+                <div class="error"></div>
+            </div>
+            
+            <button id="btn" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

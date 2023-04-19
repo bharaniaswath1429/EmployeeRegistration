@@ -1,0 +1,11 @@
+create table employeeregistration(
+	first_name varchar(50),
+	last_name varchar(50),
+	date_of_birth date,
+	email varchar(200),
+	phone_number char(10),
+	gender varchar(10),
+	qualification varchar(300),
+	experience int,
+	date_of_joining date
+)
